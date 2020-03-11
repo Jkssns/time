@@ -4,4 +4,4 @@
 
 使用方法：
 标签内加上自定义指令，v-time即可
-<p v-time>{{new Date().getTime()}}</p>
+“<p v-time>”{{new Date().getTime()}}“</p>”
