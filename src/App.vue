@@ -1,50 +1,20 @@
 <template>
   <div id="app">
-    <!-- <zjButton>123123</zjButton> -->
+    <p v-week>{{new Date(a).getTime()}}</p>
   </div>
 </template>
 
 <script>
-// import zjButton from 'ZJUI'
 export default {
   name: 'app',
-  components: {
-    // zjButton
-  },
-  data() {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+  data(){
+    return{
+      a: '2020-3-22'
     }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 
-h1,
-h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
 </style>
