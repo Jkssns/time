@@ -8,6 +8,13 @@
 
 # 使用方法
 
+在vue的main.js中引入
+
+import time from 'to-time-string'
+<br>
+Vue.use(time)
+
+
 ## v-time 
 <\p v-time >{{这里是时间戳}}<\p>  // 返回时间，例：2020/3/22 8:30:30
 
